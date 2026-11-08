@@ -1,0 +1,18 @@
+{
+  "name": "test-accenture-cypress",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Desafio QA Automation Accenture em Cypress e TypeScript",
+  "author": "Anderson Albuquerque",
+  "scripts": {
+    "test": "cypress run",
+    "test:api": "cypress run --spec cypress/e2e/api/**/*.cy.ts",
+    "test:ui": "cypress run --spec cypress/e2e/ui/**/*.cy.ts",
+    "cy:open": "cypress open"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.1",
+    "cypress": "14.5.4",
+    "typescript": "5.9.3"
+  }
+}
